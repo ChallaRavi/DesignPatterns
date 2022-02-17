@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace AbstractFactory.AbstractFactoryInterfaces
 {
     /// <summary>
-    /// The 'AbstractFactory' interface. 
+    /// This is 'AbstractFactory' interface. 
     /// </summary>
     public interface IContinentFactory
     {

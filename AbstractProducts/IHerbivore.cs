@@ -2,7 +2,7 @@
 {
 
     /// <summary>
-    /// The 'AbstractProductA' interface
+    /// This is 'AbstractProductA' interface
     /// </summary>
     public interface IHerbivore
     {

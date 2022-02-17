@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.Client
 {
+    /// <summary>
+    /// The 'Client' class
+    /// </summary>
     public class AnimalWorld<T> : IAnimalWorld where T : IContinentFactory, new()
     {
         private readonly IHerbivore herbivore;

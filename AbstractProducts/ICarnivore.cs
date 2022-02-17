@@ -1,7 +1,7 @@
 ﻿namespace AbstractFactory.AbstractFactoryInterfaces
 {
     /// <summary>
-    /// The 'AbstractProductB' interface
+    /// This is 'AbstractProductB' interface
     /// </summary>
     public interface ICarnivore
     {
