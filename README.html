@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Participants</title>
+</head>
+<body>
+
+    <h1 id="participants">Participants</h1>
+<ul>
+<li>
+<blockquote>
+<p>The classes and/or objects participating in this pattern are:</p>
+</blockquote>
+</li>
+</ul>
+<hr />
+<h3 id="iabstractfactoryinterfaces-continentfactory">(I)AbstractFactoryInterfaces (ContinentFactory)</h3>
+<ul>
+<li>declares an interface for operations that create abstract products</li>
+</ul>
+<hr />
+<h3 id="ii-concretefactories-africafactory-americafactory">(II) ConcreteFactories (AfricaFactory, AmericaFactory)</h3>
+<ul>
+<li>implements the operations to create concrete product objects</li>
+</ul>
+<hr />
+<h3 id="iii-abstractproducts-herbivore-carnivore">(III) AbstractProducts (Herbivore, Carnivore)</h3>
+<ul>
+<li>declares an interface for a type of product object</li>
+</ul>
+<hr />
+<h3 id="iv-product-wildebeest-lion-bison-wolf">(IV) Product (Wildebeest, Lion, Bison, Wolf)</h3>
+<ul>
+<li>defines a product object to be created by the corresponding concrete factory
+implements the AbstractProduct interface</li>
+</ul>
+<p>--</p>
+<h3 id="v-client-animalworld">(V) Client (AnimalWorld)</h3>
+<ul>
+<li>uses interfaces declared by AbstractFactory and AbstractProduct classes.</li>
+</ul>
+<p> </p>
+<hr />
+<h4 id="when-to-think-of-using-this-pattern-use-cases">When to Think of using this Pattern (Use Cases):</h4>
+<ul>
+<li>At times when the client does not know exactly what type to construct.</li>
+<li>Probably when we have usecases to Overload constructor, Constructors don’t communicate their intention very well because they must be
+named after their class.</li>
+</ul>
+
+
+</body>
+</html>
